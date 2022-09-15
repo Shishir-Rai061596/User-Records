@@ -45,6 +45,14 @@ const AddRecord = () => {
     }
   };
 
+  const getCurrentDay = () => {
+    const today = new Date();
+    const dd = String(today.getDate()).padStart(2, "0");
+    const mm = String(today.getMonth() + 1).padStart(2, "0");
+    const yyyy = today.getFullYear();
+    return `${yyyy}-${mm}-${dd}`;
+  };
+
   return (
     <div className={`${styles.addrecord__container}`}>
       <h3 className="text-center mb-4">ADD A NEW RECORD</h3>
@@ -94,6 +102,7 @@ const AddRecord = () => {
               id="recordBirthDate"
               name="birthDate"
               required
+              max={getCurrentDay()}
               value={recordDetails.birthDate}
               onChange={recordChangeHandler}
             />
