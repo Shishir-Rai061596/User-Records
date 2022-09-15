@@ -1,0 +1,26 @@
+{
+  "loggedUser": [
+    {
+      "isLogged": true,
+      "userEmail": "test@test.com",
+      "userPassWord": "sxdcfghk",
+      "id": "currentUser"
+    }
+  ],
+  "userRecords": [
+    {
+      "id": 79298,
+      "firstName": "sadf",
+      "lastName": "asdfg",
+      "birthDate": "2022-09-10",
+      "fullName": "sadf asdfg"
+    },
+    {
+      "id": 31063,
+      "firstName": "sad",
+      "lastName": "sad",
+      "birthDate": "1993-06-15",
+      "fullName": "sad sad"
+    }
+  ]
+}
