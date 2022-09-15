@@ -28,9 +28,10 @@ const Record = ({ record, ID }) => {
       <td width="20%">{record.lastName}</td>
       <td width="20%">{calculateAge(record.birthDate)}</td>
       <td width="20%">
-        {" "}
-        <span className="fa fa-edit" onClick={editRecordhandler}></span>
-        <span className="fa fa-trash" onClick={deleteRecordhandler}></span>
+        <div className="d-flex justify-content-evenly">
+          <span className="fa fa-edit" onClick={editRecordhandler}></span>
+          <span className="fa fa-trash" onClick={deleteRecordhandler}></span>
+        </div>
       </td>
     </tr>
   );
