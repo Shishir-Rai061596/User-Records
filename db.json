@@ -1,11 +1,26 @@
 {
   "loggedUser": [
     {
-      "isLogged": false,
-      "userEmail": "",
-      "userPassWord": "",
+      "isLogged": true,
+      "userEmail": "test@test.com",
+      "userPassWord": "tfghjkl",
       "id": "currentUser"
     }
   ],
-  "userRecords": []
+  "userRecords": [
+    {
+      "id": 27124,
+      "firstName": "John",
+      "lastName": "Cena new",
+      "birthDate": "1977-04-27",
+      "fullName": "John Cena"
+    },
+    {
+      "id": 33031,
+      "firstName": "Mark",
+      "lastName": "Henry",
+      "birthDate": "2019-01-17",
+      "fullName": "Mark Henry"
+    }
+  ]
 }
